@@ -1,0 +1,108 @@
+@media screen and (max-width: 640px){
+    .cabecalho{
+        height: 5em;
+        border-bottom: 2px solid black;
+    }
+    .menu {
+        display: none;
+    }
+    .logo{
+        /* border: 1px solid black; */
+        /* flex: 15%; */
+        /* width: 10px; */
+        height: auto;
+        /* margin-left: 5%; */
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+        padding: 20% 0% 5% 0%;
+    }
+
+    nav img{
+        width: 13em;
+    }
+
+    .chamada p{
+        /* border: 1px solid black; */
+        text-align:start;
+    }
+
+    .titulo{
+        text-align: left;
+        padding: 0% 1% 0% 1%;
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0% 0% 5% 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:641px) and (max-width:1023px) {
+    .cabecalho{
+        height: 5em;
+        border-bottom: 2px solid black;
+    }
+
+    .logo{
+        /* border: 1px solid black; */
+        /* flex: 15%; */
+        /* width: 10px; */
+        height: auto;
+        /* margin-left: 5%; */
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav {
+        display: inline-block;
+        position: relative;
+        align-items: center;
+        padding: 20% 0% 5% 0%;
+    }
+
+    nav img{
+        width: 100%;
+        align-items: center;
+        height: auto;
+        margin-bottom: 3%;
+        margin-left: 2.5%;
+        margin-top: -6%;
+    }
+
+    .chamada p{
+        /* border: 1px solid black; */
+        text-align:justify;
+    }
+
+    .titulo{
+        text-align: left;
+        padding: 0% 1% 0% 1%;
+        margin-left: 11%;
+        margin-right: 9%;
+    }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0% 0% 5% 0%;
+        margin-left: 12%;
+        margin-right: 10%;
+    }
+}
