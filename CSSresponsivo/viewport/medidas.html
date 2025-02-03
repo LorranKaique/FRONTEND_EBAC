@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, p {
+            font-size: 200%;
+            /* 1 pt = 1/72pol */
+            /* 1 em = 16px --> Para converter para em, pegamos a medida em px e dividimos pelo font-sixe do elem pai*/
+        }
+
+        section {
+            font-size: 32px;
+        }
+
+        /*
+         h1 { 
+            font-size: 3em;
+        }
+        */
+
+        div {
+            height: 1em;
+            width: 1em;
+            background-color: red;
+        }
+
+        body {
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body> // o bodytem 16px
+    <div></div>
+    <h1>Título 1</h1>
+    <h2>Subtítulo 1</h2>
+    <section> //a section tem 32 px
+        <h2>Subtítulo 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate saepe voluptates in animi non temporibus placeat eaque, blanditiis similique expedita quasi provident libero explicabo incidunt tempore iusto exercitationem voluptas fuga.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita fugit doloribus, distinctio minima laudantium praesentium quod impedit delectus consequatur harum ducimus at, consequuntur ullam autem maxime quasi perferendis facere ipsum.
+        </p>
+    </section>
+</body>
+</html>

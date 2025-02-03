@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <title>Loja Virtual</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Roboto, sans-serif;
+        }
+
+        .cabecalho {
+            display: flex;
+            flex-flow: row wrap;
+            height: 4em;
+            background-color: #4A90E2;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .logo {
+            flex: 15%;
+            margin-left: 10%;
+            text-align: left;
+        }
+
+        .logo h1 {
+            font-family: 'Bungee', cursive;
+            color: white;
+            text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+            font-size: 25px;
+            margin-left: 20px;
+        }
+
+        .menu {
+            flex: 65%;
+            text-align: right;
+            justify-content: space-around;
+            margin-right: 10%;
+        }
+
+        .menu a {
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            font-family: "Lilita One", serif;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px 16px;
+        }
+
+        .menu a:hover {
+            color: #0026ff;
+            border-bottom: 4px solid #0026ff;
+        }
+
+        nav {
+            display: flex;
+            align-items: flex-start;
+            padding: 10% 0% 5% 0%;
+        }
+
+        .chamada {
+            margin-left: 4%;
+        }
+
+        .sobre {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        h2 {
+            color: #4A90E2;
+        }
+
+        .tit {
+            margin-top: 3%;
+            margin-bottom: 4%;
+            border-bottom: 3px solid #4A90E2;
+        }
+
+        .divisao {
+            display: grid;
+            grid-template-columns: 1fr 3fr; /* Duas colunas, uma menor para "sobre" e uma maior para o resto */
+            gap: 20px; /* Espaçamento entre as colunas */
+            padding: 20px;
+        }
+
+        .titulo, .produtos {
+            padding: 0% 1% 0% 1%;
+        }
+
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 0% 0% 5% 0%;
+        }
+
+        section .tit {
+            margin-top: 1%;
+            margin-bottom: 3%;
+        }
+
+        .prod {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            text-align: start;
+            padding: 0%;
+        }
+
+        .prod button {
+            color: white;
+            background-color: #4A90E2;
+            padding: 3% 0%;
+            margin-top: 5%;
+        }
+
+        .prod img {
+            width: 100%;
+            height: auto;
+        }
+
+        .prod h3 {
+            margin: 10px 0;
+        }
+
+        .prod p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <h1>EBAC Shoes</h1>
+        </div>
+        <div class="menu">
+            <a href="#sobre">Sobre a loja</a>
+            <a href="#produtos">Produtos</a>
+        </div>
+    </header>
+
+    <section class="divisao">
+        <nav class="sobre" id="sobre">
+            <div class="img-corpo">
+                <img src="https://placeholder.pics/svg/360x320" alt="Imagem Sobre a Loja">
+            </div>
+            <div style="font-family: 'Bungee',cursive;" class="chamada">
+                <h2>Sobre a Loja</h2>
+                <div class="tit"></div>
+                <p>
+                    lorem daehdrfjka dchakjschgakjsf lkajhsdfla
+                    dksjhalfkjhsalkjdf lkjashdfklasdfasdfaqssd
+                    sdfasfdsadfasf dasdfasfasdfasfsa dfdsfasfsdfds
+                    dfsfsdfsdfds dfsf  dsfsdfsdf sdfsd fasfasfdaf
+                    af gfhy t jyrs hrtgh srh rhyt wsrthaht hrg gh 
+                    shgsdf  hsft shgn sfh sfdghsf hjngfs sfgh sfgh.
+                </p>
+            </div>
+        </nav>
+    
+        <div>
+            <section class="titulo">
+                <h2>Produtos</h2>
+                <div class="tit"></div>
+            </section>
+        
+            <section class="produtos" id="produtos">
+                <div class="prod">
+                    <img src="https://placeholder.pics/svg/200x200" alt="Produto 1">
+                    <h3>Tênis Nike Modelo XPTO</h3>
+                    <p>Lorem ipsu nulla animi inventore minus suscipit distinctio dolor.</p>
+                    <button type="submit"><strong>Adicionar ao carrinho</strong></button>
+                </div>
+                <div class="prod">
+                    <img src="https://placeholder.pics/svg/200x200" alt="Produto 2">
+                    <h3>Tênis Nike Modelo XPTO</h3>
+                    <p>Lorem ipsu nulla animi inventore minus suscipit distinctio dolor.</p>
+                    <button type="submit"><strong>Adicionar ao carrinho</strong></button>
+                </div>
+                <div class="prod">
+                    <img src="https://placeholder.pics/svg/200x200" alt="Produto 3">
+                    <h3>Tênis Nike Modelo XPTO</h3>
+                    <p>Lorem ipsu nulla animi inventore minus suscipit distinctio dolor.</p>
+                    <button type="submit"><strong>Adicionar ao carrinho</strong></button>
+                </div>
+                <div class="prod">
+                    <img src="https://placeholder.pics/svg/200x200" alt="Produto 4">
+                    <h3>Tênis Nike Modelo XPTO</h3>
+                    <p>Lorem ipsu nulla animi inventore minus suscipit distinctio dolor.</p>
+                    <button type="submit"><strong>Adicionar ao carrinho</strong></button>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+</html>

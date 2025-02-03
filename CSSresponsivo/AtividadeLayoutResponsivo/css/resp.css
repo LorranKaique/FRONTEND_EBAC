@@ -1,0 +1,140 @@
+@media screen and (max-width: 713px){
+    .cabecalho{
+        height: 5em;
+        border-bottom: 2px solid black;
+    }
+    .menu {
+        display: none;
+    }
+    .logo{
+        /* border: 1px solid black; */
+        /* flex: 15%; */
+        /* width: 10px; */
+        height: auto;
+        /* margin-left: 5%; */
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+        padding: 20% 0% 5% 0%;
+    }
+
+    nav img{
+        width: 13em;
+    }
+
+    .chamada p{
+        /* border: 1px solid black; */
+        text-align:start;
+    }
+
+    .titulo{
+        text-align: center;
+        padding: 0% 1% 0% 1%;
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0% 0% 5% 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:2000px) {
+    .cabecalho{
+        height: 5em;
+        border-bottom: 2px solid black;
+    }
+    .logo{
+        /* border: 1px solid black; */
+        /* flex: 15%; */
+        /* width: 10px; */
+        height: auto;
+        /* margin-left: 5%; */
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .divisao {
+        display: grid;
+        grid-template-columns: 1fr 3fr; /* Duas colunas, uma menor para "sobre" e uma maior para o resto */
+        grid-template-rows: ;
+        gap: 20px; /* Espaçamento entre as colunas */
+        padding: 20px;
+        align-items: start;
+    }
+    nav img{
+        width: 12em;
+    }
+    .sobre{
+        grid-column: 1 / 2;
+        padding: 20% 0% 0% 0%;
+    }
+    .produtos{
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: -300px;
+    }
+    .titulo{
+        margin-top: 73px;
+    }
+    .titulo, .produtos {
+        grid-column: 2 / 3;
+    }
+}
+@media screen and (min-width:2001px) {
+    .cabecalho{
+        height: 5em;
+        border-bottom: 2px solid black;
+    }
+    .logo{
+        /* border: 1px solid black; */
+        /* flex: 15%; */
+        /* width: 10px; */
+        height: auto;
+        /* margin-left: 5%; */
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .divisao {
+        display: grid;
+        grid-template-columns: 1fr 3fr; /* Duas colunas, uma menor para "sobre" e uma maior para o resto */
+        grid-template-rows: ;
+        gap: 20px; /* Espaçamento entre as colunas */
+        padding: 20px;
+        align-items: start;
+    }
+    nav img{
+        width: 12em;
+    }
+    .sobre{
+        grid-column: 1 / 2;
+        padding: 20% 0% 0% 0%;
+    }
+    .produtos{
+        position: fixed;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 1%;
+        top:15%;
+        right: 5%;
+        left: 24%;
+        
+    }
+    .titulo{
+        margin-top: 73px;
+    }
+    .titulo, .produtos {
+        grid-column: 2 / 3;
+    }
+}
