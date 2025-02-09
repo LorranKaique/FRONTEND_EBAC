@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+    <div class="cabec">
+        <header id="cabecalho">
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <h1>Gatitus</h1>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pill">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#filhotes">Filhotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#bravos">Bravos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#dorminhocos">Dorminhocos</a>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/06/19/42/cat-1803904_1280.jpg"/>
+                    <div class="carousel-caption">
+                        <h2>Foto de um gato</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/11/22/22/34/cat-7610765_1280.jpg"/>
+                    <div class="carousel-caption">
+                        <h2>Foto de um gato</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/10/11/16/56/cat-4542301_1280.jpg"/>
+                    <div class="carousel-caption">
+                        <h2>Foto de um gato</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="mt-5" data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <section id="filhotes">
+                <h2>Gatos Filhotes</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg" class="card-img-top img-fluid" style="width: 900px; height: 300px; object-fit: cover;" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2018/01/14/14/42/cat-3081939_960_720.jpg" class="card-img-top img-fluid" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2016/09/05/21/37/cat-1647775_640.jpg" class="card-img-top img-fluid" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="bravos">
+                <h2>Gatos Bravos</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2021/12/17/19/15/pet-6877246_640.jpg" class="card-img-top img-thumbnail" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2022/11/11/09/26/cat-7584624_640.jpg" class="card-img-top img-thumbnail" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2021/07/14/09/14/siberian-cat-6465485_640.jpg" class="card-img-top img-thumbnail" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="dorminhocos">
+                <h2>Gatos Dorminhocos</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2019/10/11/16/56/cat-4542301_640.jpg" class="card-img-top img-thumbnail" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2016/12/30/17/27/cat-1941089_640.jpg" class="card-img-top img-thumbnail" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card text-bg-dark m-4">
+                                <div class="card-header">
+                                    Cabeçalho do header
+                                </div>
+                                <img src="https://cdn.pixabay.com/photo/2022/10/19/22/15/cat-7533717_640.jpg" class="card-img-top img-thumbnail" style="width: 900px; height: 300px; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Botão link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
