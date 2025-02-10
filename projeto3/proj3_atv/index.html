@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Anômalo</title>
+  <link href="./lib/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Patrick+Hand+SC&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsividade.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+      <div class="container">
+        <img src="./imagens/icone.png" alt="icone" class="iconet">
+        <h1 class="navbar-brand m-0 section-title fs-3">Mundo Anômalo</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+          <!-- para aplicar o d, a fórmula é:
+          {propriedade}-{breakpoint}-{valor} -->
+          <ul  class="nav nav-pills d-block d-md-flex ">
+            <li class="nav-item fw-bold">
+              <a href="#sobre-o-restaurant" class="nav-link">
+                <i class="bi bi-house-door me-2"></i>
+                Sobre o Universo
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#eventos" class="nav-link">
+                <i class="bi bi-calendar-check me-2"></i>
+                Os mais Fortes
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#cardapio" class="nav-link">
+                <i class="bi bi-card-text me-2"></i>
+                Cards de Apoio
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#fale-conosco" class="nav-link">
+                <i class="bi bi-chat-left-text me-2"></i>
+                Fale conosco
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+
+      <section id="sobre-o-restaurant">
+        <!-- carousel -->
+        <div data-bs-ride="carousel" id="carousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="./imagens/carousel/zarc0.jpg" alt="Foto do espaço interno do restaurante" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./imagens/carousel/1313038.jpg" alt="Imagem de vinho e taça de vinho" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./imagens/carousel/4tthm.png" alt="Captura de pratos e alimentos do restaurante" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./imagens/carousel/4ttmulher.png" alt="Captura de pratos e alimentos do restaurante" class="d-block w-100">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="#carousel">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" ></button>
+          </div>
+        </div>
+        <!-- sobre -->
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="./imagens/Four_Dimension_Dragons_126-1.webp" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+              </div>
+              <div class="col-md-7 mt-3 mt-md-0">
+                <h2 class="section-title1">O Legado dos <span class="text-colored1">Olhos Anômalos</span></h2>
+                <p class="text-blackwhite">
+                  A história dos "Olhos Anômalos" é uma celebração da criatividade, da evolução e da superação. Através de seus duelos, Yuya Sakaki nos ensina que, mesmo diante das maiores adversidades, podemos encontrar força na amizade e na crença em nossos próprios talentos.
+                </p>
+                <h3 class="section-title1">Os núcleos das<span class="text-colored1"> Dimenções</span></h3>
+                <p class="text-blackwhite">
+                  Dragão Fusão da Peçonha Insaciável, Dragão Sincro de Asas Transparentes, Dragão Xyz da Rebelião Negra e Dragão Pêndulo de Olhos Anômalos. Esses dragões não apenas representam suas respectivas dimensões de invocação, mas também simbolizam a conexão entre Yuya, Yugo, Yuto e Yuri. À medida que a série progride, os destinos desses personagens e de seus dragões se entrelaçam, revelando a importância da união das diferentes técnicas de invocação para alcançar a paz e a harmonia entre as dimensões.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>           
+      </section>
+
+      <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">Os cards mais Fortes</h2>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <img class="d-block w-100 mb-5" src="./imagens/maisforts/66425726.avif" alt="Odd-eyes Pendulumgraph Dragon">
+            </div>
+            <div class="col-md-4">
+              <img class="d-block w-100 mb-5" src="./imagens/maisforts/R.jpg" alt="Odd-eyes Rebellion Dragon">
+            </div>
+            <div class="col-md-4">
+              <img class="d-block w-100 mb-5" src="./imagens/maisforts/OIP.jpg" alt="Odd-eyes Arc Pendulum Dragon">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-5"><span class="text-colored">Cartas de Apoio</span></h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2 mb-3">
+              <nav class="nav nav-pills flex-column nav-cardapio">
+                <button type="button" data-bs-toggle="tab" data-bs-target="#nao-alcolico" class="fw-bold text-start nav-link text-colored active">Camarartistas</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#alcolico" class="fw-bold text-start nav-link text-colored">Magos</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Dimensional</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">ExtraDeck</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Magias</button>
+              </nav>
+            </aside>
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="nao-alcolico">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/camarartista/26270847.jpg" alt="Silver Craw">
+                      <h5 class="text-colored fw-bold mt-2">Silver Craw</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/camarartista/7714344.jpg" alt="Unit">
+                      <h5 class="text-colored fw-bold mt-2">Uni</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/camarartista/download.jpg" alt="Barokuriboh">
+                      <h5 class="text-colored fw-bold mt-2">Barokuriboh</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/camarartista/OIP.jpg" alt="Monkeyboard">
+                      <h5 class="text-colored fw-bold mt-2">Monkeyboard</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="alcolico">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/mago/8c7bcd11602ad903cdf42d90ebbbe442.jpg" alt="Astrohraph">
+                      <h5 class="text-colored fw-bold mt-2">Astrohraph</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/mago/ass.jpg" alt="Stargazing">
+                      <h5 class="text-colored fw-bold mt-2">Stargazing</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/mago/best-pendulum-magicians-yugioh.png" alt="Xiangke">
+                      <h5 class="text-colored fw-bold mt-2">Xiangke</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/mago/da.jpg" alt="Harmonizing">
+                      <h5 class="text-colored fw-bold mt-2">Harmonizing</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="entradas">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/dimensionais/complete_supreme_king_dragon_zarc_by_neophoenixknight-dawmpdb.png" alt="Supremo REI ZARC">
+                      <h5 class="text-colored fw-bold mt-2">Supremo REI ZARC</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/dimensionais/pç,.jpg" alt="Peçonha">
+                      <h5 class="text-colored fw-bold mt-2">Peçonha</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/dimensionais/R.png" alt="Raging">
+                      <h5 class="text-colored fw-bold mt-2">Raging</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/dimensionais/wing.jpg" alt="Wing">
+                      <h5 class="text-colored fw-bold mt-2">Wing</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="pratos-principais">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/extradeck/65029288.jpg" alt="Metal Claw">
+                      <h5 class="text-colored fw-bold mt-2">Metal Claw</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/extradeck/grds.jpg" alt="Gatlinghoul">
+                      <h5 class="text-colored fw-bold mt-2">Gatlinghoul</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/extradeck/OIP.jpg" alt="Paladin">
+                      <h5 class="text-colored fw-bold mt-2">Paladin</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/extradeck/xyy.jpg" alt="Magician">
+                      <h5 class="text-colored fw-bold mt-2">Magician</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="sobremesas">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/magias/amaz.jpg" alt="Amazing">
+                      <h5 class="text-colored fw-bold mt-2">Amazing</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/magias/ext.jpg" alt="Extra">
+                      <h5 class="text-colored fw-bold mt-2">Extra</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/magias/OIP.jpg" alt="Paradox">
+                      <h5 class="text-colored fw-bold mt-2">Paradox</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="./imagens/apoio/magias/SoulPendulum-DUPO-EN-UR-1E.webp" alt="Soul">
+                      <h5 class="text-colored fw-bold mt-2">Soul</h5>
+                      <p class="text-colored1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente neque nobis odio provident nisi quo rem porro quidem odit, ipsam vel? Quas natus earum et animi, similique doloremque molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title3 text-center">Fale <span class="text-colored2">conosco</span></h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7 mb-5">
+              <form id="meuform">
+                <div class="mb-3">
+                  <label for="nome" class="form-label fw-bold text-colored2">Seu nome:</label>
+                  <input type="text" id="nome" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-bold text-colored2">Seu e-mail:</label>
+                  <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label for="telefone" class="form-label fw-bold text-colored2">Seu telefone:</label>
+                  <input type="tel" id="telefone" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="mensagem" class="form-label fw-bold text-colored2">Sua mensagem:</label>
+                  <textarea class="form-control" id="mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn fw-bold">Enviar</button>
+                <div class="mt-3 fw-bold" id="error-message" style="color: red;"></div>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h3 class="section-title3 fs-4 text-colored3">
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  Redes Sociais
+                </h3>
+                <ul class="social-links">
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-facebook text-colored3"></i>
+                    </a>
+                  </li>
+                  <li class="fs-5 ms-2 me-2">
+                    <a href="#">
+                      <i class="bi bi-instagram text-colored3"></i>
+                    </a>
+                  </li>
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-whatsapp text-colored3"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row mt-4">
+                <h3 class="section-title fs-4 text-colored3">
+                  <i class="bi bi-cursor-fill"></i>
+                  Endereço
+                </h3>
+                <p>
+                  Rua Teste Exemplo n°145, Bairro Bootstrap - São Paulo - SP
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<script src="./lib/bootstrap.bundle.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#telefone').mask('(00) 00000-0000');
+
+    $('#meuform').submit(function(event){
+      var telefone = $('#telefone').val();
+      var email = $('#email').val();
+      var emailPos =  /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      if(telefone && telefone.length !==15) {
+        $('#error-message').text('Por favor, insira um número de telefone valido');
+        event.preventDefault();
+      } else if (!emailPos.test(email)) {
+        $('#error-message').text('Por favor, insira um endereço de e-mail válido.');
+        event.preventDefault();
+       } else {
+        $('#error-message').text('');
+        alert('Enviado com sucesso');
+      }
+    });
+  });
+</script>
+</body>
+</html>
+
+
