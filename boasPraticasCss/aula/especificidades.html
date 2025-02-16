@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 0 0 1 */
+        button {
+            background-color: cadetblue !important;
+        }
+        /* 0 1 0 */
+        .btn-success {
+            background-color: greenyellow;
+        }
+        /* 0 1 1 */
+        button.btn-success {
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <button style="background-color: brown;" class="btn-success">Enviar mensagem</button>
+</body>
+</html>
+<!-- 
+Níveis de especificidades
+CSS inline > IDs e classes > Tags
+
+leitura
+ex: footer.container ul li a
+
+a -- > li -- > ul -- > .container -- > footer
+
+a -- > li -- > footer
+
+.footer-link
+
+
+  -->

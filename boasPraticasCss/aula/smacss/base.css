@@ -1,0 +1,15 @@
+/* Base */
+/* 
+-Dentro da regra base não é utilizado ids ou classes
+-reset ficaria aqui
+-utilizamos apenas tag 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
